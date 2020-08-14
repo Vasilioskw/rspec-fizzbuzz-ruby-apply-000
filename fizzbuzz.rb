@@ -8,8 +8,7 @@ x / 3 == Integer
     else if x / 3 !=  Integer
       puts "nil" 
 end
-    
-fizzbuzz(x)
+
 x / 5 == Integer
     puts "Buzz"
     else if x != Integer
