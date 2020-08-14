@@ -7,8 +7,8 @@ def fizzbuzz(x)
   puts "fizz"
     else if (x / 5).class == Integer
       puts "Buzz" 
-      
+    
    else if (x / 3).class == Integer && (x / 5).class == Integer
   puts "fizzBuzz"
 end
-    
+end
