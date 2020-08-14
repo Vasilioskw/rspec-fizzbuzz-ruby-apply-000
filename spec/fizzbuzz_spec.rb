@@ -8,7 +8,7 @@ describe "fizzbuzz" do
         expect(fizz_3).to eq("Fizz")
       end 
         it 'returns "Fizz" when the number is not divisible by 3' do
-        fizz_4 = fizz(4)
+        fizz_4 = fizzbuzz(4)
          expect(fizz_4).to eq(nil)
 
   end
