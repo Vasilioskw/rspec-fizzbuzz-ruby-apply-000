@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 
-def fizz(x)
+def fizzbuzz(x)
    if (x / 3).class == Integer && (x / 5).class == Integer
   return "FizzBuzz"
   
