@@ -10,7 +10,5 @@ def fizzbuzz(x)
       
    else if (x / 3).class == Integer && (x / 5).class == Integer
   puts "fizzBuzz"
-   else if  (x / 3).class == Integer && && (x / 5).class != Integer
-    puts nil
 end
     
