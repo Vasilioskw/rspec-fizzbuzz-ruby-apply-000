@@ -3,12 +3,13 @@
 
 
 def fizzbuzz(x)
-  if (x / 3).class == Integer
+   if (x / 3).class == Integer && (x / 5).class == Integer
+  return "FizzBuzz"
+  
+  elsif (x / 3).class == Integer
   return "Fizz"
     elsif (x / 5).class == Integer
       return "Buzz" 
-    
-   elsif (x / 3).class == Integer && (x / 5).class == Integer
-  return "FizzBuzz"
+  
 end
 end
