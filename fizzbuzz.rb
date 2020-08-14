@@ -4,11 +4,11 @@
 
 def fizzbuzz(x)
   if (x / 3).class == Integer
-  puts "Fizz"
+  return "Fizz"
     elsif (x / 5).class == Integer
-      puts "Buzz" 
+      return "Buzz" 
     
    elsif (x / 3).class == Integer && (x / 5).class == Integer
-  puts "FizzBuzz"
+  return "FizzBuzz"
 end
 end
