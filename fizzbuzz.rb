@@ -1,8 +1,4 @@
-# Don't forget! This file needs to be 'required' in its spec file
-# See README.md for instructions on how to do this
-
-
-def fizzbuzz(x)
+# Don't forgdef fizzbuzz(x)
    if (x / 3).class == Integer && (x / 5).class == Integer
   return "FizzBuzz"
   
@@ -13,4 +9,7 @@ def fizzbuzz(x)
   
 end
 return nil
-end
+endet! This file needs to be 'required' in its spec file
+# See README.md for instructions on how to do this
+
+
